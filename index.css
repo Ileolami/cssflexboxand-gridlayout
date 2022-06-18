@@ -46,12 +46,36 @@ p {
     padding: 50px;
     background-color: hsl(179, 100%, 13%);
 }
-
-button {
-    background-color: hsl(0, 0%, 95%);
-    padding: 15px;
-    border: 6px;
+b1 {
+    background: hsl(0, 0%, 95%);
+    padding: 20px;
+    border: none;
     border-radius: 60px;
     font-size: 15px;
-    color: chocolate;
+    color: hsl(31, 77%, 52%);
+}
+
+.b2 {
+    background: hsl(0, 0%, 95%);
+    padding: 20px;
+    border: none;
+    border-radius: 60px;
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+}
+
+.b3 {
+    background: hsl(0, 0%, 95%);
+    padding: 20px;
+    border: none;
+    border-radius: 60px;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width:375px) {
+    body {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
