@@ -73,7 +73,7 @@ p {
     color: hsl(179, 100%, 13%);
 }
 
-@media (max-width:375px) {
+@media (max-width:775px) {
     body {
         flex-direction: column;
         gap: 5px;
